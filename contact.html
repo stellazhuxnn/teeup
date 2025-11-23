@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TeeUP – Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-logo">TU</div>
+        <div>
+          <div class="brand-text-title">TeeUP</div>
+          <div class="brand-text-sub">Helping parents & young kids start golf</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="kids.html">For kids</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Get tips</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="contact">
+        <h1 class="page-title">Contact & updates</h1>
+        <p class="page-subtitle">
+          Have a question about getting your child started with golf? You can reach out or join the
+          email list for future guides and updates.
+        </p>
+
+        <div class="contact-card">
+          <div>
+            <h2 class="contact-title">Ask a question</h2>
+            <p class="contact-body">
+              If you’re wondering about gear, lessons, or how to handle something you’re seeing at
+              the course, feel free to reach out.
+            </p>
+            <p class="contact-hint">
+              You can email me directly at
+              <strong>youremail@example.com</strong>
+              (replace this with your real email).
+            </p>
+          </div>
+          <div>
+            <form
+              onsubmit="alert('Static site demo – connect this form to a service like Formspree, Getform, or Netlify Forms later.'); return false;"
+            >
+              <div class="input-row">
+                <input type="email" name="email" placeholder="you@example.com" required />
+                <button type="submit" class="btn btn-primary">Get parent tips</button>
+              </div>
+              <p class="contact-hint">
+                Occasional emails only — new guides, kid-friendly ideas, and updates on the kids zone.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> TeeUP. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="kids.html">Kids zone</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

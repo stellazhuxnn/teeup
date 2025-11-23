@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TeeUP – Articles for Parents</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-logo">TU</div>
+        <div>
+          <div class="brand-text-title">TeeUP</div>
+          <div class="brand-text-sub">Helping parents & young kids start golf</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="kids.html">For kids</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Get tips</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <h1 class="page-title">Articles & Guides</h1>
+        <p class="page-subtitle">
+          Beginner-friendly resources for parents — start with any topic that matches where you are.
+        </p>
+
+        <div class="cards-grid">
+          <article class="card" id="clubs">
+            <span class="card-tag">Gear basics</span>
+            <h2 class="card-title">What golf clubs does my kid actually need?</h2>
+            <p class="card-excerpt">
+              How to choose kid-sized clubs, what a “starter set” really needs, and the easiest way
+              to avoid overspending.
+            </p>
+            <div class="card-meta">
+              <span>Outline ready</span>
+              <span>Beginner</span>
+            </div>
+          </article>
+
+          <article class="card" id="bag-straps">
+            <span class="card-tag">Practical tips</span>
+            <h2 class="card-title">How to adjust a golf bag strap for your child</h2>
+            <p class="card-excerpt">
+              As an assistant coach, you see it all the time: tiny kids under giant bags. This guide
+              walks parents through fixing the fit — or deciding it’s time for a push cart.
+            </p>
+            <div class="card-meta">
+              <span>Outline ready</span>
+              <span>Comfort</span>
+            </div>
+          </article>
+
+          <article class="card" id="first-range">
+            <span class="card-tag">First day</span>
+            <h2 class="card-title">A simple game plan for the first range visit</h2>
+            <p class="card-excerpt">
+              A friendly script, what to pack, and three easy games so your child’s first range
+              session feels fun instead of stressful.
+            </p>
+            <div class="card-meta">
+              <span>Outline ready</span>
+              <span>Parents & kids</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> TeeUP. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="kids.html">Kids zone</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
